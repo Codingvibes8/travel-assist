@@ -6,37 +6,38 @@ const featuredTools = [
   {
     name: "TripPlanner Pro",
     description: "AI-powered itinerary creation and optimization",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/trip-plan.jpg?height=300&width=400",
     category: "Planning"
   },
   {
+   
     name: "LinguaTravel",
     description: "Real-time translation and language learning for travelers",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/linguatravel.jpg?height=300&width=400",
     category: "Communication"
   },
   {
     name: "EcoStay",
     description: "Find and book eco-friendly accommodations worldwide",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/ecostay.jpg?height=300&width=400",
     category: "Accommodation"
   },
   {
     name: "LocalEats Explorer",
     description: "Discover authentic local cuisine and hidden gem restaurants",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/localeats.jpg?height=300&width=400",
     category: "Food & Dining"
   },
   {
     name: "AdventureBuddy",
     description: "Connect with fellow travelers and join group activities",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/adventure.jpg?height=300&width=400",
     category: "Social"
   },
   {
     name: "SafeJourney",
     description: "Real-time safety alerts and emergency assistance for travelers",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/safejourney.jpg?height=300&width=400",
     category: "Safety"
   }
 ]
@@ -57,8 +58,8 @@ export function FeaturedTools() {
             <Image
               src={tool.image || "/placeholder.svg"}
               alt={tool.name}
-              width={100}
-              height={100}
+              width={400}
+              height={300}
               className="rounded-lg mx-auto"
             />
           </CardContent>
